@@ -1,0 +1,59 @@
+/*
+Author Name: Anik Islam
+Tamplete Name: Cleaning Website
+version: 1.0.0
+*/
+
+/* CSS VARIABLES */
+:root{
+    --body-font: 'Plus Jakarta Sans', sans-serif;
+    --btn-font: 'Open Sans', sans-serif;
+}
+
+body{
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 44px;
+}
+h4{
+    font-size: 40px;
+}
+h5{
+    font-size: 36px;
+}
+h6{
+    font-size: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
