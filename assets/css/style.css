@@ -10,7 +10,7 @@ version: 1.0.0
     --btn-font: 'Open Sans', sans-serif;
     --upper-bg: #3EC5FA;
     --white: #fff;
-    --light-white: #FEF5E7;
+    --light-white: #646464;
     --black: #000;
 }
 
@@ -23,7 +23,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin-bottom: 500px;
+    /* margin-bottom: 500px; */
 }
 
 h1{
@@ -92,7 +92,7 @@ p{
     color: var(--white);
     font-weight: 500;
 }
-.upper-right  i{
+.upper-right i{
     color: var(--white);
     font-size: 18px;
     font-weight: 700;
@@ -204,4 +204,91 @@ p{
     margin-top: -45px;
 } */
 /* HERO SECTION END */
+
+
+/* SERVICE SECTION START */
+.service-section{
+    padding: 120px 120px;
+}
+.service-content .line-brk{
+    /* background-color: var(--upper-bg); */
+    border: 1px solid var(--upper-bg);
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.service-content span{
+    color: var(--upper-bg);
+    font-size: 16px;
+}
+.service-content h4{
+    color: var(--black);
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.service-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row{
+    font-size: 16px;
+    width: 420px;
+}
+.service-row span {
+    background-color: var(--upper-bg);
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+    
+}
+.service-row span a{
+    color: var(--white);
+    margin-right: 8px;
+    font-weight: 600;
+    font-family: var(--btn-font);
+}
+.service-second{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* width: calc(100% - 120px); */
+    justify-content: center;
+}
+.service-items{
+    border: 2px solid var(--light-white);
+    width: 360px;
+    /* width: 33.33%; */
+    padding: 32px 32px;
+    border-radius: 5px;
+}
+.service-items .logo{
+    background-color: var(--upper-bg);
+    padding: 16px 16px;
+    border-radius: 4px;
+    /* margin-bottom: 25px; */
+}
+.service-items h6{
+    color: var(--black);
+    font-size: 20px ;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+.service-items p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--light-white);
+    width: 296px;
+    margin-bottom: 25px;
+}
+.service-items .icon a{
+    color: var(--upper-bg);
+    font-size: 16px;
+    margin-right: 12px;
+    text-decoration: underline;
+}
+/* SERVICE SECTION END */
 
