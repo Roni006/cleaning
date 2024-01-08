@@ -12,6 +12,10 @@ version: 1.0.0
     --white: #fff;
     --light-white: #646464;
     --black: #000;
+    --icon-bg: #EDF1FC;
+    --p-text: #333333;
+    --bottom-border: #ADAFAE;
+    --our-bg: #EBF4FF;
 }
 
 *{
@@ -23,7 +27,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* margin-bottom: 500px; */
+    margin-bottom: 500px;
 }
 
 h1{
@@ -210,7 +214,7 @@ p{
 .service-section{
     padding: 120px 120px;
 }
-.service-content .line-brk{
+.service-content .service-1 .line-brk{
     /* background-color: var(--upper-bg); */
     border: 1px solid var(--upper-bg);
     width: 60px;
@@ -218,11 +222,11 @@ p{
     margin-bottom: 5px;
     margin-right: 15px;
 }
-.service-content span{
+.service-content .service-1 span{
     color: var(--upper-bg);
     font-size: 16px;
 }
-.service-content h4{
+.service-content .service-1 h4{
     color: var(--black);
     font-weight: 700;
     margin-top: 15px;
@@ -291,4 +295,87 @@ p{
     text-decoration: underline;
 }
 /* SERVICE SECTION END */
+
+
+/* OUR SERVICE SECTION START */
+.our-section{
+    background-color: var(--our-bg);
+    
+}
+.our-row{
+    display: flex;
+    gap: 120px;
+    padding: 110px 150px 130px 30px;
+}
+.our-section .service-1 .line-brk{
+    /* background-color: var(--upper-bg); */
+    border: 1px solid var(--upper-bg);
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.our-section .service-1 span{
+    color: var(--upper-bg);
+    font-size: 16px;
+}
+.our-section .service-1 h4{
+    color: var(--black);
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.our-block-1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid var(--bottom-border);
+    width: 425px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.our-block-1 .doc{
+    background-color: var(--icon-bg);
+    padding: 39px 43px 39px 43px;
+}
+.our-block-1  h6{
+    color: var(--black);
+    font-weight: 700;
+}
+.our-block-1 p{
+    font-size: 16px;
+    color: var(--p-text);
+    width: 280px;
+    margin-top: 20px;
+}
+.ourright-row{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ourright-row p{
+    font-size: 16px;
+    font-family: var(--btn-font);
+    width: 390px;
+}
+/* OUR SERVICE SECTION END */
+
+
+/* ABOUT SECTION START */
+.about-us{
+    background-color: var(--upper-bg);
+}
+.about-top h1{
+    color: var(--white);
+    
+    font-weight: 700;
+    /* padding: 107px 212px 102px 212px; */
+    text-align: center;
+    /* width: 1015px; */
+    padding: 50px 50px 50px 50px;
+}
+
+/* ABOUT SECTION END */
 
