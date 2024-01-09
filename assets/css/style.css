@@ -16,6 +16,8 @@ version: 1.0.0
     --p-text: #333333;
     --bottom-border: #ADAFAE;
     --our-bg: #EBF4FF;
+    --about-btn: #FDDB3A;
+    --box-border: #F2F2F2;
 }
 
 *{
@@ -363,7 +365,7 @@ p{
 /* OUR SERVICE SECTION END */
 
 
-/* ABOUT SECTION START */
+/* ABOUT US SECTION START */
 .about-us{
     background-color: var(--upper-bg);
 }
@@ -374,8 +376,131 @@ p{
     /* padding: 107px 212px 102px 212px; */
     text-align: center;
     /* width: 1015px; */
-    padding: 50px 50px 50px 50px;
+    padding: 70px 50px 70px 50px;
+    position: relative;
 }
+.about-top span{
+    background-color: var(--about-btn);
+    padding: 24px 75px 24px 75px;
+    border-radius: 15px;
+    color: var(--black);
+    font-weight: 600;
+    margin-left: 392px;
+    margin-top: -36px;
+    position: absolute;
+}
+/* ABOUT SECTION START */
+.about-section{
 
+}
+.about-row{
+    display: flex;
+    gap: 30px;
+    padding: 55px 115px 150px 50px;
+}
+.about-bottom .primary{
+    margin-top: 90px;
+    font-size: 16px;
+    text-align: center;
+    color: var(--black);
+    font-weight: 300;
+}
+.about-item h2{
+    color: var(--white);
+    font-weight: 600;
+}
+.about-item .secondary{
+    color: var(--white);
+    font-weight: 500px;
+}
+.about-item{
+    background-color: var(--upper-bg);
+    width: 280px;
+    padding: 25px 68px 31px 68px;
+    text-align: center;
+    border-radius: 25px;
+}
 /* ABOUT SECTION END */
+
+/* ABOUT US SECTION END */
+
+
+
+/* OUR CLIENT SECTION START */
+.our-clinet{
+
+}
+.client-top .service-1 .line-brk{
+    /* background-color: var(--upper-bg); */
+    border: 1px solid var(--upper-bg);
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.client-top .service-1 span{
+    color: var(--upper-bg);
+    font-size: 16px;
+}
+.client-top .service-1 h4{
+    color: var(--black);
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.client-top .service-1 p{
+    font-size: 16px;
+    width: 420px;
+}
+.client-bottom{
+    margin-left: -66px ;
+    
+}
+.client-row{
+    display: flex;
+    gap: 25px;
+}
+.client-bottom .client-block{
+    border: 1px solid var(--box-border);
+    width: 440px;
+    margin-top: 80px;
+    position: relative;
+    padding: 50px 10px 30px 15px;
+    border-radius: 15px;
+}
+.client-bottom .client-block .bg-color{
+    background-color: var(--upper-bg);
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -75px;
+
+}
+.client-bottom .client-block .pera{
+    font-size: 16px;
+    width: 376px;
+    margin-bottom: 24px;
+}
+.client-block .under-line{
+    width: 376px;
+    border-bottom: 1px solid var(--box-border);
+}
+.client-block .clients-detail{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.client-block .clients-detail .client-txt{
+    margin-top: 25px;
+    align-items: center;
+}
+.client-block .clients-detail .client-txt{
+    /* display: flex; */
+}
+/* OUR CLIENT SECTION END */
 
