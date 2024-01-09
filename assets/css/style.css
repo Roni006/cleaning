@@ -504,3 +504,80 @@ p{
 }
 /* OUR CLIENT SECTION END */
 
+
+/* CONTACT SECTION START */
+.contact-section{
+    padding-top: 120px;
+    
+}
+.contact-row{
+    display: flex;
+    gap: 40px;
+}
+
+ .contact-left .service-1 .line-brk{
+    /* background-color: var(--upper-bg); */
+    border: 1px solid var(--upper-bg);
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.contact-left .c-txt{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+    width: 459px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.contact-left .top{
+    margin-top: 20px;
+}
+.contact-left .color{
+    color: var(--upper-bg );
+}
+.contact-right{
+    background-color: var(--upper-bg);
+    padding: 40px 70px 40px 70px;
+    border-radius: 8px;
+}
+.contact-right label{
+    font-size: 15px;
+    color: var(--white);   
+}
+::placeholder{
+    font-size: 15px;
+    color: var(--bottom-border);
+    
+}
+input{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 260px 12px 20px;
+    margin-bottom: 20px;
+}
+textarea{
+    border-radius: 4px;
+    padding: 16px 240px 126px 20px;
+}
+.sub-btn{
+    background: transparent;
+    border: none;
+    background-color: var(--about-btn);
+    padding: 25px 36px 25px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.our-block-1{
+    margin-bottom: 45px;
+}
+.our-txt .our-title{
+    color: var(--upper-bg);
+}
+/* CONTACT SECTION END */
+
+
