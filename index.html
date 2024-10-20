@@ -1,674 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- goggle fonts link -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- FONT AWESOME CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <!-- css links -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Cleaning</title>
-
-    
 </head>
-<body>
-   
-    <!-- UPPER SECTION START -->
-    <section  class="upper-section">
-        <div class="container">
-            <div class="upper-row">
-                <div class="upper-left">
-                    <p>Call for free estimate! We are always available <span class="white-txt">: 123-456-7890</span></p>
-                </div>
-                <div class="upper-right">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-tiktok"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- UPPER SECTION END -->
 
-    <!-- HEADER SECTION START  -->
+<body>
+
+
+    <!--HEADER SECTION START -->
     <header class="header-section">
         <div class="container">
-            <!-- <div class="shape1">
-                <img src="assets/img/hero-shape-1.png" alt="">
-            </div>
-            <div class="shape2">
-                <img src="assets/img/hero-shape-2.png" alt="">
-            </div> -->
-            <div class="header-row">
-                <div class="logo">
-                    <a href="#"><img src="assets/img/logo.png" alt="logo img"></a>
+            <div class="header-top">
+                <div class="top-row">
+                    <div class="top-left">
+                        <p>Call for free estimate! We are always available : <span>123-456-7890</span></p>
+                    </div>
+                    <div class="top-right">
+                        <div class="social-icons">
+                            <svg class="social" width="7" height="7" viewBox="0 0 7 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.783868 1.54017C1.01478 1.21234 1.30092 0.926203 1.62875 0.695291L5.62975 0.695291C5.95764 0.926245 6.24382 1.21244 6.47476 1.54035L6.47476 5.54099C6.24378 5.86896 5.95754 6.1552 5.62957 6.38618H1.62893C1.30102 6.15525 1.01482 5.86907 0.783868 5.54117L0.783868 1.54017ZM5.49422 1.43334C5.55071 1.38866 5.62075 1.36462 5.69277 1.36517C5.74005 1.36555 5.78665 1.37652 5.82913 1.39729C5.87162 1.41806 5.9089 1.4481 5.93823 1.48519C5.99024 1.55095 6.014 1.63468 6.00427 1.71796C5.99455 1.80124 5.95214 1.87725 5.88638 1.92927C5.82062 1.98127 5.73689 2.00503 5.65361 1.99531C5.57033 1.98558 5.49432 1.94318 5.4423 1.87741C5.3903 1.81164 5.36656 1.7279 5.37629 1.64462C5.38603 1.56134 5.42845 1.48534 5.49422 1.43334ZM1.66836 3.57248C1.66836 2.50196 2.54286 1.62733 3.61338 1.62733C4.6839 1.62733 5.5584 2.50196 5.5584 3.57248C5.5584 4.643 4.6839 5.5175 3.61338 5.5175C2.54286 5.5175 1.66836 4.643 1.66836 3.57248ZM4.1165 2.35815C3.95695 2.29237 3.78596 2.25881 3.61338 2.2594C3.4408 2.25881 3.26981 2.29237 3.11026 2.35815C2.95071 2.42394 2.80576 2.52064 2.68375 2.6427C2.56174 2.76475 2.46509 2.90975 2.39937 3.06932C2.33364 3.2289 2.30015 3.3999 2.30081 3.57248C2.30015 3.74503 2.33366 3.91601 2.39939 4.07555C2.46512 4.23509 2.56178 4.38005 2.6838 4.50206C2.80581 4.62407 2.95077 4.72073 3.11031 4.78646C3.26985 4.8522 3.44083 4.8857 3.61338 4.88505C3.78593 4.8857 3.9569 4.8522 4.11645 4.78646C4.27599 4.72073 4.42095 4.62407 4.54296 4.50206C4.66497 4.38005 4.76163 4.23509 4.82736 4.07555C4.8931 3.91601 4.9266 3.74503 4.92595 3.57248C4.92661 3.3999 4.89311 3.2289 4.82739 3.06932C4.76167 2.90975 4.66502 2.76475 4.54301 2.6427C4.421 2.52064 4.27605 2.42394 4.1165 2.35815Z"
+                                    fill="#FEF5E7" />
+                            </svg>
+                            <svg class="social" width="7" height="7" viewBox="0 0 7 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.783868 1.54017C1.01478 1.21234 1.30092 0.926203 1.62875 0.695291L5.62975 0.695291C5.95764 0.926245 6.24382 1.21244 6.47476 1.54035L6.47476 5.54099C6.24378 5.86896 5.95754 6.1552 5.62957 6.38618H1.62893C1.30102 6.15525 1.01482 5.86907 0.783868 5.54117L0.783868 1.54017ZM5.49422 1.43334C5.55071 1.38866 5.62075 1.36462 5.69277 1.36517C5.74005 1.36555 5.78665 1.37652 5.82913 1.39729C5.87162 1.41806 5.9089 1.4481 5.93823 1.48519C5.99024 1.55095 6.014 1.63468 6.00427 1.71796C5.99455 1.80124 5.95214 1.87725 5.88638 1.92927C5.82062 1.98127 5.73689 2.00503 5.65361 1.99531C5.57033 1.98558 5.49432 1.94318 5.4423 1.87741C5.3903 1.81164 5.36656 1.7279 5.37629 1.64462C5.38603 1.56134 5.42845 1.48534 5.49422 1.43334ZM1.66836 3.57248C1.66836 2.50196 2.54286 1.62733 3.61338 1.62733C4.6839 1.62733 5.5584 2.50196 5.5584 3.57248C5.5584 4.643 4.6839 5.5175 3.61338 5.5175C2.54286 5.5175 1.66836 4.643 1.66836 3.57248ZM4.1165 2.35815C3.95695 2.29237 3.78596 2.25881 3.61338 2.2594C3.4408 2.25881 3.26981 2.29237 3.11026 2.35815C2.95071 2.42394 2.80576 2.52064 2.68375 2.6427C2.56174 2.76475 2.46509 2.90975 2.39937 3.06932C2.33364 3.2289 2.30015 3.3999 2.30081 3.57248C2.30015 3.74503 2.33366 3.91601 2.39939 4.07555C2.46512 4.23509 2.56178 4.38005 2.6838 4.50206C2.80581 4.62407 2.95077 4.72073 3.11031 4.78646C3.26985 4.8522 3.44083 4.8857 3.61338 4.88505C3.78593 4.8857 3.9569 4.8522 4.11645 4.78646C4.27599 4.72073 4.42095 4.62407 4.54296 4.50206C4.66497 4.38005 4.76163 4.23509 4.82736 4.07555C4.8931 3.91601 4.9266 3.74503 4.92595 3.57248C4.92661 3.3999 4.89311 3.2289 4.82739 3.06932C4.76167 2.90975 4.66502 2.76475 4.54301 2.6427C4.421 2.52064 4.27605 2.42394 4.1165 2.35815Z"
+                                    fill="#FEF5E7" />
+                            </svg>
+                            <svg class="social" width="7" height="7" viewBox="0 0 7 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.783868 1.54017C1.01478 1.21234 1.30092 0.926203 1.62875 0.695291L5.62975 0.695291C5.95764 0.926245 6.24382 1.21244 6.47476 1.54035L6.47476 5.54099C6.24378 5.86896 5.95754 6.1552 5.62957 6.38618H1.62893C1.30102 6.15525 1.01482 5.86907 0.783868 5.54117L0.783868 1.54017ZM5.49422 1.43334C5.55071 1.38866 5.62075 1.36462 5.69277 1.36517C5.74005 1.36555 5.78665 1.37652 5.82913 1.39729C5.87162 1.41806 5.9089 1.4481 5.93823 1.48519C5.99024 1.55095 6.014 1.63468 6.00427 1.71796C5.99455 1.80124 5.95214 1.87725 5.88638 1.92927C5.82062 1.98127 5.73689 2.00503 5.65361 1.99531C5.57033 1.98558 5.49432 1.94318 5.4423 1.87741C5.3903 1.81164 5.36656 1.7279 5.37629 1.64462C5.38603 1.56134 5.42845 1.48534 5.49422 1.43334ZM1.66836 3.57248C1.66836 2.50196 2.54286 1.62733 3.61338 1.62733C4.6839 1.62733 5.5584 2.50196 5.5584 3.57248C5.5584 4.643 4.6839 5.5175 3.61338 5.5175C2.54286 5.5175 1.66836 4.643 1.66836 3.57248ZM4.1165 2.35815C3.95695 2.29237 3.78596 2.25881 3.61338 2.2594C3.4408 2.25881 3.26981 2.29237 3.11026 2.35815C2.95071 2.42394 2.80576 2.52064 2.68375 2.6427C2.56174 2.76475 2.46509 2.90975 2.39937 3.06932C2.33364 3.2289 2.30015 3.3999 2.30081 3.57248C2.30015 3.74503 2.33366 3.91601 2.39939 4.07555C2.46512 4.23509 2.56178 4.38005 2.6838 4.50206C2.80581 4.62407 2.95077 4.72073 3.11031 4.78646C3.26985 4.8522 3.44083 4.8857 3.61338 4.88505C3.78593 4.8857 3.9569 4.8522 4.11645 4.78646C4.27599 4.72073 4.42095 4.62407 4.54296 4.50206C4.66497 4.38005 4.76163 4.23509 4.82736 4.07555C4.8931 3.91601 4.9266 3.74503 4.92595 3.57248C4.92661 3.3999 4.89311 3.2289 4.82739 3.06932C4.76167 2.90975 4.66502 2.76475 4.54301 2.6427C4.421 2.52064 4.27605 2.42394 4.1165 2.35815Z"
+                                    fill="#FEF5E7" />
+                            </svg>
+                            <svg class="social" width="7" height="7" viewBox="0 0 7 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.783868 1.54017C1.01478 1.21234 1.30092 0.926203 1.62875 0.695291L5.62975 0.695291C5.95764 0.926245 6.24382 1.21244 6.47476 1.54035L6.47476 5.54099C6.24378 5.86896 5.95754 6.1552 5.62957 6.38618H1.62893C1.30102 6.15525 1.01482 5.86907 0.783868 5.54117L0.783868 1.54017ZM5.49422 1.43334C5.55071 1.38866 5.62075 1.36462 5.69277 1.36517C5.74005 1.36555 5.78665 1.37652 5.82913 1.39729C5.87162 1.41806 5.9089 1.4481 5.93823 1.48519C5.99024 1.55095 6.014 1.63468 6.00427 1.71796C5.99455 1.80124 5.95214 1.87725 5.88638 1.92927C5.82062 1.98127 5.73689 2.00503 5.65361 1.99531C5.57033 1.98558 5.49432 1.94318 5.4423 1.87741C5.3903 1.81164 5.36656 1.7279 5.37629 1.64462C5.38603 1.56134 5.42845 1.48534 5.49422 1.43334ZM1.66836 3.57248C1.66836 2.50196 2.54286 1.62733 3.61338 1.62733C4.6839 1.62733 5.5584 2.50196 5.5584 3.57248C5.5584 4.643 4.6839 5.5175 3.61338 5.5175C2.54286 5.5175 1.66836 4.643 1.66836 3.57248ZM4.1165 2.35815C3.95695 2.29237 3.78596 2.25881 3.61338 2.2594C3.4408 2.25881 3.26981 2.29237 3.11026 2.35815C2.95071 2.42394 2.80576 2.52064 2.68375 2.6427C2.56174 2.76475 2.46509 2.90975 2.39937 3.06932C2.33364 3.2289 2.30015 3.3999 2.30081 3.57248C2.30015 3.74503 2.33366 3.91601 2.39939 4.07555C2.46512 4.23509 2.56178 4.38005 2.6838 4.50206C2.80581 4.62407 2.95077 4.72073 3.11031 4.78646C3.26985 4.8522 3.44083 4.8857 3.61338 4.88505C3.78593 4.8857 3.9569 4.8522 4.11645 4.78646C4.27599 4.72073 4.42095 4.62407 4.54296 4.50206C4.66497 4.38005 4.76163 4.23509 4.82736 4.07555C4.8931 3.91601 4.9266 3.74503 4.92595 3.57248C4.92661 3.3999 4.89311 3.2289 4.82739 3.06932C4.76167 2.90975 4.66502 2.76475 4.54301 2.6427C4.421 2.52064 4.27605 2.42394 4.1165 2.35815Z"
+                                    fill="#FEF5E7" />
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-                <div class="nav-menu">
-                    <nav>
-                        <ul><li><a href="#">Home</a></li></ul>
-                        <ul><li><a href="#">Jobs</a></li></ul>
-                        <ul><li><a href="#">FAQ</a></li></ul>
-                        <ul><li><a href="#">Referral</a></li></ul>
-                    </nav>
+            </div>
+
+            <!-- MAIN HEADER  -->
+            <div class="header-row">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-middle">
+                        <nav>
+                            <ul class="menus">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">FR</a></li>
+                                <li><a href="#">Referral</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                <div class="header-right">
                     <div class="header-btn">
                         <a href="#">Request An Estimate</a>
                     </div>
+                    <div class="bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </div>
             </div>
+            <!-- MAIN HEADER  -->
         </div>
     </header>
-    <!-- HEADER SECTION END -->
-
-    <!-- HERO SECTION START  -->
-    <section class="hero-section">
-        <div class="container">
-         <div class="hero-content">
-            <p class="first">Professional Cleaning Service</p>
-            <h2>We Are Premium <br> Cleaning Company located in USA <br>ready to make your life easier!!</h2>
-            <p class="second">At Cleanzer Crystal Clean, we believe in building a relationship with every one of our customers.<br> Our cleaning programs are tailored to meet your needs. We don't believe in a one size fits all approach.<br> Need us to wash dishes? Do laundry? Make the beds? Not a problem!</p>
-         </div>
-         <div class="btn-grp">
-            <span class="background">
-                <a href="#" class="background">Book A Schedule</a>
-                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.84753 3.55811L16.6672 6.33399L14.1614 16.226" fill="#3EC5FA"/>
-                    <path d="M6.84753 3.55811L16.6672 6.33399L14.1614 16.226" stroke="#EFEFEF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M3.55807 13.6743L16.5684 6.16281" stroke="#EFEFEF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg> 
-                </span>
-            <span class="background">
-                <a href="#" class="background">Our Best Offer</a>
-                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.84753 3.55811L16.6672 6.33399L14.1614 16.226" fill="#3EC5FA"/>
-                    <path d="M6.84753 3.55811L16.6672 6.33399L14.1614 16.226" stroke="#EFEFEF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M3.55807 13.6743L16.5684 6.16281" stroke="#EFEFEF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg> 
-                </span>
-          
-            
-            
-         </div>
-        </div>
-    </section>
-    <!-- HERO SECTION END -->
+    <!--HEADER SECTION END -->
 
 
-    <!-- SERVICE SECTION START -->
-    <section class="service-section">
-        <div class="container">
-            <div class="service-content">
-                <div class="service-1">
-                <div class="line-brk"></div>
-                <span>Best Services</span>
-                <h4>What Our Services</h4>
-                </div>
-                <div class="service-row">
-                    <p class="row">While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:</p>
-                    <span>
-                        <a href="#">See More</a>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 12.61H17.5289" stroke="white" stroke-width="1.43542" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M14.5616 8L19.1559 12.61L14.5616 17.22" stroke="white" stroke-width="1.88163" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </span>
-                </div>
-                <div class="service-second">
-                    <div class="service-items">
-                        <span class="logo">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_27)">
-                                <path d="M29.56 14.3467L17.8267 4.14667C16.7867 3.24001 15.24 3.24001 14.2 4.14667L2.46666 14.3467C1.77333 14.9467 2.19999 16.0933 3.11999 16.0933H6.58666V26.0933C6.58666 27.6133 7.82666 28.8533 9.34666 28.8533H12.6667V21.12C12.6667 20.3867 13.2667 19.7867 14 19.7867H18C18.7333 19.7867 19.3333 20.3867 19.3333 21.12V28.8533H22.6533C24.1733 28.8533 25.4133 27.6133 25.4133 26.0933V16.0933H28.88C29.8267 16.08 30.2533 14.9467 29.56 14.3467Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1_27">
-                                <rect width="29.3733" height="26.9733" fill="white" transform="translate(1.33331 2.66663)"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                        </span>
-                        <h6>Recurring Cleaning</h6>
-                        <p>We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.</p>
-                        <span class="icon">
-                            <a href="#">Learn More </a>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="21" y="12.2" width="15" height="1.5" transform="rotate(-180 21 12.2)" fill="#3EC5FA"/>
-                                <path d="M15 18L22 11.5L15 5" stroke="#3EC5FA" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>  
-                        </span>
-                    </div>
-                    <div class="service-items">
-                        <span class="logo">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_27)">
-                                <path d="M29.56 14.3467L17.8267 4.14667C16.7867 3.24001 15.24 3.24001 14.2 4.14667L2.46666 14.3467C1.77333 14.9467 2.19999 16.0933 3.11999 16.0933H6.58666V26.0933C6.58666 27.6133 7.82666 28.8533 9.34666 28.8533H12.6667V21.12C12.6667 20.3867 13.2667 19.7867 14 19.7867H18C18.7333 19.7867 19.3333 20.3867 19.3333 21.12V28.8533H22.6533C24.1733 28.8533 25.4133 27.6133 25.4133 26.0933V16.0933H28.88C29.8267 16.08 30.2533 14.9467 29.56 14.3467Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1_27">
-                                <rect width="29.3733" height="26.9733" fill="white" transform="translate(1.33331 2.66663)"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                        </span>
-                        <h6>Occasional Cleaning</h6>
-                        <p>We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.</p>
-                        <span class="icon">
-                            <a href="#">Learn More </a>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="21" y="12.2" width="15" height="1.5" transform="rotate(-180 21 12.2)" fill="#3EC5FA"/>
-                                <path d="M15 18L22 11.5L15 5" stroke="#3EC5FA" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>  
-                        </span>
-                    </div>
-                    <div class="service-items">
-                        <span class="logo">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_27)">
-                                <path d="M29.56 14.3467L17.8267 4.14667C16.7867 3.24001 15.24 3.24001 14.2 4.14667L2.46666 14.3467C1.77333 14.9467 2.19999 16.0933 3.11999 16.0933H6.58666V26.0933C6.58666 27.6133 7.82666 28.8533 9.34666 28.8533H12.6667V21.12C12.6667 20.3867 13.2667 19.7867 14 19.7867H18C18.7333 19.7867 19.3333 20.3867 19.3333 21.12V28.8533H22.6533C24.1733 28.8533 25.4133 27.6133 25.4133 26.0933V16.0933H28.88C29.8267 16.08 30.2533 14.9467 29.56 14.3467Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1_27">
-                                <rect width="29.3733" height="26.9733" fill="white" transform="translate(1.33331 2.66663)"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                        </span>
-                        <h6>Apartment Cleaning</h6>
-                        <p>We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.</p>
-                        <span class="icon">
-                            <a href="#">Learn More </a>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="21" y="12.2" width="15" height="1.5" transform="rotate(-180 21 12.2)" fill="#3EC5FA"/>
-                                <path d="M15 18L22 11.5L15 5" stroke="#3EC5FA" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>  
-                        </span>
-                    </div>
-                    <div class="service-items">
-                        <span class="logo">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_27)">
-                                <path d="M29.56 14.3467L17.8267 4.14667C16.7867 3.24001 15.24 3.24001 14.2 4.14667L2.46666 14.3467C1.77333 14.9467 2.19999 16.0933 3.11999 16.0933H6.58666V26.0933C6.58666 27.6133 7.82666 28.8533 9.34666 28.8533H12.6667V21.12C12.6667 20.3867 13.2667 19.7867 14 19.7867H18C18.7333 19.7867 19.3333 20.3867 19.3333 21.12V28.8533H22.6533C24.1733 28.8533 25.4133 27.6133 25.4133 26.0933V16.0933H28.88C29.8267 16.08 30.2533 14.9467 29.56 14.3467Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1_27">
-                                <rect width="29.3733" height="26.9733" fill="white" transform="translate(1.33331 2.66663)"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                        </span>
-                        <h6>Refrigerator Cleaning</h6>
-                        <p>We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.</p>
-                        <span class="icon">
-                            <a href="#">Learn More </a>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="21" y="12.2" width="15" height="1.5" transform="rotate(-180 21 12.2)" fill="#3EC5FA"/>
-                                <path d="M15 18L22 11.5L15 5" stroke="#3EC5FA" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>  
-                        </span>
-                    </div>
-                    <div class="service-items">
-                        <span class="logo">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_27)">
-                                <path d="M29.56 14.3467L17.8267 4.14667C16.7867 3.24001 15.24 3.24001 14.2 4.14667L2.46666 14.3467C1.77333 14.9467 2.19999 16.0933 3.11999 16.0933H6.58666V26.0933C6.58666 27.6133 7.82666 28.8533 9.34666 28.8533H12.6667V21.12C12.6667 20.3867 13.2667 19.7867 14 19.7867H18C18.7333 19.7867 19.3333 20.3867 19.3333 21.12V28.8533H22.6533C24.1733 28.8533 25.4133 27.6133 25.4133 26.0933V16.0933H28.88C29.8267 16.08 30.2533 14.9467 29.56 14.3467Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1_27">
-                                <rect width="29.3733" height="26.9733" fill="white" transform="translate(1.33331 2.66663)"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                        </span>
-                        <h6>Housekeeping Cleaning</h6>
-                        <p>We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.</p>
-                        <span class="icon">
-                            <a href="#">Learn More </a>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="21" y="12.2" width="15" height="1.5" transform="rotate(-180 21 12.2)" fill="#3EC5FA"/>
-                                <path d="M15 18L22 11.5L15 5" stroke="#3EC5FA" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>  
-                        </span>
-                    </div>
-                    <div class="service-items">
-                        <span class="logo">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_27)">
-                                <path d="M29.56 14.3467L17.8267 4.14667C16.7867 3.24001 15.24 3.24001 14.2 4.14667L2.46666 14.3467C1.77333 14.9467 2.19999 16.0933 3.11999 16.0933H6.58666V26.0933C6.58666 27.6133 7.82666 28.8533 9.34666 28.8533H12.6667V21.12C12.6667 20.3867 13.2667 19.7867 14 19.7867H18C18.7333 19.7867 19.3333 20.3867 19.3333 21.12V28.8533H22.6533C24.1733 28.8533 25.4133 27.6133 25.4133 26.0933V16.0933H28.88C29.8267 16.08 30.2533 14.9467 29.56 14.3467Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1_27">
-                                <rect width="29.3733" height="26.9733" fill="white" transform="translate(1.33331 2.66663)"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                        </span>
-                        <h6>Oven Cleaning</h6>
-                        <p>We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.</p>
-                        <span class="icon">
-                            <a href="#">Learn More </a>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="21" y="12.2" width="15" height="1.5" transform="rotate(-180 21 12.2)" fill="#3EC5FA"/>
-                                <path d="M15 18L22 11.5L15 5" stroke="#3EC5FA" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>  
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SERVICE SECTION END -->
+    <!-- SECTION START -->
+    <!-- SECTION END -->
 
 
-    <!-- OUR SERVICE SECTION START -->
-    <section class="our-section">
-        <div class="container">
-            <div class="our-row">
-                <div class="row-left">
-                    <div class="service-1">
-                        <div class="line-brk"></div>
-                        <span>Get our Service</span>
-                        <h4>How To Get Our Service</h4>
-                    </div>
-                    <div class="our-block">
-                        <div class="our-block-1">
-                          <div class="icon">
-                            <span class="doc">
-                                <svg width="38" height="46" viewBox="0 0 38 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M23.1668 2.16669H6.50016C5.39509 2.16669 4.33529 2.60567 3.55388 3.38708C2.77248 4.16848 2.3335 5.22828 2.3335 6.33335V39.6667C2.3335 40.7718 2.77248 41.8316 3.55388 42.613C4.33529 43.3944 5.39509 43.8334 6.50016 43.8334H31.5002C32.6052 43.8334 33.665 43.3944 34.4464 42.613C35.2278 41.8316 35.6668 40.7718 35.6668 39.6667V14.6667L23.1668 2.16669Z" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M23.1665 2.16669V14.6667H35.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M27.3332 25.0833H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M27.3332 33.4167H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M14.8332 16.75H12.7498H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>  
-                            </span>
-                          </div>
-                           <div class="our-txt">
-                            <h6 class="our-title">Choose Your TIme</h6>
-                            <p class="our-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                           </div>
-                        </div>
-                        <div class="our-block-1">
-                          <div class="icon">
-                            <span class="doc">
-                                <svg width="38" height="46" viewBox="0 0 38 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M23.1668 2.16669H6.50016C5.39509 2.16669 4.33529 2.60567 3.55388 3.38708C2.77248 4.16848 2.3335 5.22828 2.3335 6.33335V39.6667C2.3335 40.7718 2.77248 41.8316 3.55388 42.613C4.33529 43.3944 5.39509 43.8334 6.50016 43.8334H31.5002C32.6052 43.8334 33.665 43.3944 34.4464 42.613C35.2278 41.8316 35.6668 40.7718 35.6668 39.6667V14.6667L23.1668 2.16669Z" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M23.1665 2.16669V14.6667H35.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M27.3332 25.0833H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M27.3332 33.4167H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M14.8332 16.75H12.7498H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>  
-                            </span>
-                          </div>
-                           <div class="our-txt">
-                            <h6 class="our-title">Choose Your TIme</h6>
-                            <p class="our-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                           </div>
-                        </div>
-                        <div class="our-block-1">
-                          <div class="icon">
-                            <span class="doc">
-                                <svg width="38" height="46" viewBox="0 0 38 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M23.1668 2.16669H6.50016C5.39509 2.16669 4.33529 2.60567 3.55388 3.38708C2.77248 4.16848 2.3335 5.22828 2.3335 6.33335V39.6667C2.3335 40.7718 2.77248 41.8316 3.55388 42.613C4.33529 43.3944 5.39509 43.8334 6.50016 43.8334H31.5002C32.6052 43.8334 33.665 43.3944 34.4464 42.613C35.2278 41.8316 35.6668 40.7718 35.6668 39.6667V14.6667L23.1668 2.16669Z" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M23.1665 2.16669V14.6667H35.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M27.3332 25.0833H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M27.3332 33.4167H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M14.8332 16.75H12.7498H10.6665" stroke="#3EC5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>  
-                            </span>
-                          </div>
-                           <div class="our-txt">
-                            <h6 class="our-title">Choose Your TIme</h6>
-                            <p class="our-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                           </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="row-right">
-                    <img src="assets/img/our-img/our-img-1.png" alt="Our image">
-                    <div class="ourright-row">
-                        <img src="assets/img/our-img/our-img-2.png" alt="Our image-2">
-                        <p class="para"><span class="bold">Fringilla scelerisque</span> in imperdiet nisi erat in id. Vel fermentum aenean aenean id ornare vitae sapien nulla auctor. At nisl sem eget orci pretium sed.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- OUR SERVICE SECTION END -->
 
-    <!-- ABOUT SECTION START -->
-    <section class="about-us">
-        <div class="container">
-            <div class="about-top">
-                <h1>We Make Sanitizing Services Simple And Easy For You</h1>
-                <span>More Than Just Cleaning</span>
-            </div>
-        </div>
-    </section>
-    <section class="about-section">
-        <div class="about-bottom">
-            <p class="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut sollicitudin sem. Ut tempus ligula eget <br> vestibulum dapibus. Sed ac pulvinar massa. Class aptent </p>
-            <div class="about-row">
-                <div class="about-item">
-                    <h2>1820+</h2>
-                    <p class="secondary">Clean Houses</p>
-                </div>
-                <div class="about-item">
-                    <h2>25+</h2>
-                    <p class="secondary">Glorius Years</p>
-                </div>
-                <div class="about-item">
-                    <h2>750+</h2>
-                    <p class="secondary">Active Clients</p>
-                </div>
-                <div class="about-item">
-                    <h2>55+</h2>
-                    <p class="secondary">Team Advisor</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ABOUT SECTION END -->
-
-
-    <!-- OUR CLIENT SECTION START -->
-    <section class="our-client">
-        <div class="container">
-            <!-- <div class="icon">
-             <span>
-                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 14L8 7.5L1 1" stroke="#3EC5FA" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-             </span>
-            </div> -->
-            <div class="client-top">
-                <div class="service-1">
-                    <div class="line-brk"></div>
-                    <span>Happy clients</span>
-                    <h4>What Our Client Say’s</h4>
-                    <p>This is what clients have been saying after using the great service we do for clients.</p>
-                </div>
-            </div>
-            <div class="client-bottom">
-                <div class="client-row">
-                    <div class="client-block">
-                        <span class="bg-color">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.9955 6.12814C19.9955 6.12598 19.9957 6.12381 19.9957 6.12165C19.9957 3.49223 17.8642 1.36072 15.2348 1.36072C12.6053 1.36072 10.4739 3.49219 10.4739 6.12165C10.4739 8.75111 12.6056 10.8826 15.2348 10.8826C15.7752 10.8826 16.2925 10.7884 16.7765 10.6224C15.7054 16.7671 10.9136 20.7299 15.3555 17.4685C20.2809 13.8519 20.001 6.26691 19.9955 6.12814Z" fill="white"/>
-                                <path d="M4.76093 10.8825C5.30131 10.8825 5.81859 10.7883 6.30284 10.6224C5.23144 16.7671 0.439686 20.7298 4.88162 17.4684C9.80706 13.8519 9.52713 6.26691 9.52158 6.12814C9.52158 6.12598 9.52181 6.12381 9.52181 6.12165C9.52181 3.49223 7.39034 1.36072 4.76093 1.36072C2.13147 1.36072 0 3.49219 0 6.12165C0 8.75111 2.13171 10.8825 4.76093 10.8825Z" fill="white"/>
-                                </svg>  
-                        </span>
-                        <p class="pera">“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”</p>
-                        <div class="under-line"></div>
-                        <div class="clients-detail">
-                            <img src="assets/img/clients/clinet-1.png" alt="client-1">
-                            <div class="client-txt">
-                                <h6 class="name">Zazmi Javier</h6>
-                                <p>House Husband</p>
-                                <span>
-                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                        </svg>
-                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                            </svg>
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                                </svg>
-                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                                    </svg>
-                                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                         </svg>                
-                                     </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="client-block">
-                        <span class="bg-color">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.9955 6.12814C19.9955 6.12598 19.9957 6.12381 19.9957 6.12165C19.9957 3.49223 17.8642 1.36072 15.2348 1.36072C12.6053 1.36072 10.4739 3.49219 10.4739 6.12165C10.4739 8.75111 12.6056 10.8826 15.2348 10.8826C15.7752 10.8826 16.2925 10.7884 16.7765 10.6224C15.7054 16.7671 10.9136 20.7299 15.3555 17.4685C20.2809 13.8519 20.001 6.26691 19.9955 6.12814Z" fill="white"/>
-                                <path d="M4.76093 10.8825C5.30131 10.8825 5.81859 10.7883 6.30284 10.6224C5.23144 16.7671 0.439686 20.7298 4.88162 17.4684C9.80706 13.8519 9.52713 6.26691 9.52158 6.12814C9.52158 6.12598 9.52181 6.12381 9.52181 6.12165C9.52181 3.49223 7.39034 1.36072 4.76093 1.36072C2.13147 1.36072 0 3.49219 0 6.12165C0 8.75111 2.13171 10.8825 4.76093 10.8825Z" fill="white"/>
-                                </svg>  
-                        </span>
-                        <p class="pera">“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”</p>
-                        <div class="under-line"></div>
-                        <div class="clients-detail">
-                            <img src="assets/img/clients/client-2.png" alt="client-1">
-                            <div class="client-txt">
-                                <h6 class="name">Chintya Xin</h6>
-                                <p>HouseWIfe</p>
-                                <span>
-                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                        </svg>
-                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                            </svg>
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                                </svg>
-                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                                    </svg>
-                                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                         </svg>                
-                                     </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="client-block">
-                        <span class="bg-color">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.9955 6.12814C19.9955 6.12598 19.9957 6.12381 19.9957 6.12165C19.9957 3.49223 17.8642 1.36072 15.2348 1.36072C12.6053 1.36072 10.4739 3.49219 10.4739 6.12165C10.4739 8.75111 12.6056 10.8826 15.2348 10.8826C15.7752 10.8826 16.2925 10.7884 16.7765 10.6224C15.7054 16.7671 10.9136 20.7299 15.3555 17.4685C20.2809 13.8519 20.001 6.26691 19.9955 6.12814Z" fill="white"/>
-                                <path d="M4.76093 10.8825C5.30131 10.8825 5.81859 10.7883 6.30284 10.6224C5.23144 16.7671 0.439686 20.7298 4.88162 17.4684C9.80706 13.8519 9.52713 6.26691 9.52158 6.12814C9.52158 6.12598 9.52181 6.12381 9.52181 6.12165C9.52181 3.49223 7.39034 1.36072 4.76093 1.36072C2.13147 1.36072 0 3.49219 0 6.12165C0 8.75111 2.13171 10.8825 4.76093 10.8825Z" fill="white"/>
-                                </svg>  
-                        </span>
-                        <p class="pera">“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”</p>
-                        <div class="under-line"></div>
-                        <div class="clients-detail">
-                            <img src="assets/img/clients/client-3.png" alt="client-1">
-                            <div class="client-txt">
-                                <h6 class="name">Braun Yes</h6>
-                                <p>CEO Of Arcane</p>
-                                <span>
-                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                        </svg>
-                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                            </svg>
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                                </svg>
-                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                                    </svg>
-                                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z" fill="#FECE63"/>
-                                         </svg>                
-                                     </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- OUR CLIENT SECTION END -->
-
-
-    <!-- CONTACT SECTION START -->
-    <section class="contact-section">
-        <div class="container">
-            <div class="contact-row">
-                <div class="contact-left">
-                    <div class="service-1">
-                        <div class="line-brk"></div>
-                        <span class="color">CONTACT</span>
-                        <h4 class="top">Get In Touch</h4>
-                        <p class="c-txt">Fill up the form and our Team will get back to you within 24 hours.</p>
-                    </div>
-                    <div class="our-block">
-                        <div class="our-block-1">
-                          <div class="icon">
-                            <span class="doc">
-                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.6677 17.7673L18.8205 15.6137C19.1104 15.3273 19.4773 15.1312 19.8765 15.0492C20.2757 14.9673 20.6901 15.0031 21.0693 15.1522L23.693 16.2002C24.0762 16.3558 24.4049 16.6215 24.6375 16.9637C24.8701 17.3059 24.9962 17.7093 25 18.1231V22.9302C24.9978 23.2117 24.9386 23.4898 24.8261 23.7479C24.7136 24.0059 24.5501 24.2384 24.3454 24.4316C24.1406 24.6247 23.899 24.7744 23.6349 24.8716C23.3708 24.9688 23.0898 25.0116 22.8088 24.9973C4.424 23.8532 0.714362 8.27798 0.0127987 2.31709C-0.0197684 2.02437 0.0099873 1.72807 0.100108 1.44768C0.190229 1.16729 0.338672 0.909164 0.535672 0.690287C0.732673 0.471411 0.973765 0.296742 1.24309 0.177774C1.51241 0.0588048 1.80386 -0.00176823 2.09827 3.92929e-05H6.74012C7.15434 0.00126588 7.55872 0.126436 7.90125 0.359451C8.24378 0.592466 8.5088 0.922669 8.66221 1.30759L9.70975 3.9323C9.86377 4.31021 9.90306 4.72514 9.82272 5.12526C9.74239 5.52538 9.54599 5.89295 9.25806 6.18206L7.10532 8.33567C7.10532 8.33567 8.34507 16.729 16.6677 17.7673Z" fill="#3EC5FA"/>
-                                </svg> 
-                            </span>
-                          </div>
-                           <div class="our-txt">
-                            <h6 class="our-title">Phone</h6>
-                            <p class="our-text">123-456-7890</p>
-                           </div>
-                        </div>
-                        <div class="our-block-1">
-                          <div class="icon">
-                            <span class="doc">
-                                <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.25 0H3.75C2.75544 0 1.80161 0.400089 1.09835 1.11225C0.395088 1.82442 0 2.79032 0 3.79747V16.4557C0 17.4628 0.395088 18.4287 1.09835 19.1409C1.80161 19.8531 2.75544 20.2532 3.75 20.2532H21.25C22.2446 20.2532 23.1984 19.8531 23.9017 19.1409C24.6049 18.4287 25 17.4628 25 16.4557V3.79747C25 2.79032 24.6049 1.82442 23.9017 1.11225C23.1984 0.400089 22.2446 0 21.25 0ZM21.25 2.53165L13.125 8.18987C12.935 8.30097 12.7194 8.35946 12.5 8.35946C12.2806 8.35946 12.065 8.30097 11.875 8.18987L3.75 2.53165H21.25Z" fill="#3EC5FA"/>
-                                </svg>   
-                            </span>
-                          </div>
-                           <div class="our-txt">
-                            <h6 class="our-title">G-mail</h6>
-                            <p class="our-text">info@companyemail.com</p>
-                           </div>
-                        </div>
-                        <div class="our-block-1">
-                          <div class="icon">
-                            <span class="doc">
-                                <svg width="25" height="32" viewBox="0 0 25 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12.5 0C9.186 0.00392252 6.00885 1.32648 3.66549 3.67757C1.32214 6.02865 0.00392292 9.21628 1.32987e-05 12.5412C-0.00395589 15.2583 0.880672 17.9018 2.51819 20.0659C2.51819 20.0659 2.8591 20.5163 2.91478 20.5813L12.5 31.9231L22.0898 20.5756C22.1398 20.5151 22.4818 20.0659 22.4818 20.0659L22.4829 20.0625C24.1197 17.8993 25.0039 15.2571 25 12.5412C24.9961 9.21628 23.6779 6.02865 21.3345 3.67757C18.9912 1.32648 15.814 0.00392252 12.5 0ZM12.5 17.1016C11.601 17.1016 10.7222 16.8342 9.97468 16.3331C9.22719 15.832 8.64459 15.1197 8.30055 14.2864C7.95652 13.4531 7.8665 12.5361 8.04189 11.6515C8.21728 10.7669 8.65019 9.95428 9.28588 9.31649C9.92157 8.6787 10.7315 8.24436 11.6132 8.0684C12.495 7.89243 13.4089 7.98274 14.2395 8.32791C15.07 8.67308 15.7799 9.2576 16.2794 10.0076C16.7789 10.7575 17.0455 11.6392 17.0455 12.5412C17.0439 13.7502 16.5646 14.9093 15.7125 15.7643C14.8603 16.6192 13.7051 17.1001 12.5 17.1016Z" fill="#3EC5FA"/>
-                                 </svg>
-                            </span>
-                          </div>
-                           <div class="our-txt">
-                            <h6 class=" ">Location</h6>
-                            <p class="our-text">11 Avenue Francis Road,Laval,USA</p>
-                           </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="contact-right">
-                    <form action="#">
-                        <p><label for="text">Name</label></p>
-                        <input type="text" name="" id="" placeholder="Your Name" required>
-
-                        <p><label for="text">E-mail</label></p>
-                        <input type="text" name="" id="" placeholder="Your E-mail" required>
-
-                        <p><label for="text">Message</label></p>
-                        <!-- <input type="text" name="" id="" placeholder="Name"> -->
-                        <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
-                    </form>
-                    <button type="submit" class="sub-btn">Book A Shedule</button>
-                </form>
-                </div>
-        </div>
-    </section>
-    <!-- CONTACT SECTION END -->
-
-
-    <!-- OFFER SECTION START -->
-    <section class="offer-section">
-        <div class="container">
-            <div class="offer-content">
-                <h5>Best Cleaning <br> Service Company</h5>
-                <p>Quisque imperdiet mauris nec faucibus vestibulum. Ut vestibulum est ac hendrerit pharetra. Integer sit amet laoreet lectus</p>
-               <button class="book">BOOK APPOINMENT</button>
-            </div>
-        </div>
-    </section>
-    <!-- OFFER SECTION END -->
-
-
-    <!-- FOOTER SECTION START -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="footer-row">
-                <div class="first-footer">
-                    <a href="#"><img src="assets/img/logo.png" alt=""></a>
-                    <p>We Are Premium Cleaning Company  in USA ready to make your life easier!!</p>
-                    <div class="icons">
-                        <span>
-                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.5745 16.4368V10.1198H12.7056L13.0224 7.64652H10.5745V6.07113C10.5745 5.35742 10.7733 4.86877 11.7977 4.86877H13.0956V2.66369C12.4641 2.59601 11.8293 2.56333 11.1942 2.5658C9.31048 2.5658 8.01718 3.71575 8.01718 5.8268V7.64189H5.89996V10.1152H8.02181V16.4368H10.5745Z" fill="white"/>
-                                </svg>
-                        </span>
-                        <span>
-                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.5745 16.4368V10.1198H12.7056L13.0224 7.64652H10.5745V6.07113C10.5745 5.35742 10.7733 4.86877 11.7977 4.86877H13.0956V2.66369C12.4641 2.59601 11.8293 2.56333 11.1942 2.5658C9.31048 2.5658 8.01718 3.71575 8.01718 5.8268V7.64189H5.89996V10.1152H8.02181V16.4368H10.5745Z" fill="white"/>
-                                </svg>
-                        </span>
-                        <span>
-                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.5745 16.4368V10.1198H12.7056L13.0224 7.64652H10.5745V6.07113C10.5745 5.35742 10.7733 4.86877 11.7977 4.86877H13.0956V2.66369C12.4641 2.59601 11.8293 2.56333 11.1942 2.5658C9.31048 2.5658 8.01718 3.71575 8.01718 5.8268V7.64189H5.89996V10.1152H8.02181V16.4368H10.5745Z" fill="white"/>
-                                </svg>
-                        </span>
-                    </div>
-                </div>
-                <div class="second-footer">
-                    <h6 class="footer">Navigation</h6>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="third-footer">
-                    <h6 class="footer">Quick Links</h6>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms Of Service</a></li>
-                        <li><a href="#">Disclaimer</a></li>
-                        <li><a href="#">Faq</a></li>
-                    </ul>
-                </div>
-                <div class="forth-footer">
-                    <h6 class="footer">Contact Info</h6>
-                    <div class="info">
-                     <div class="txt-icon">
-                        <span>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.2475 14.11L14.9275 12.43C15.1538 12.2066 15.4401 12.0536 15.7516 11.9897C16.0632 11.9258 16.3866 11.9537 16.6825 12.07L18.73 12.8875C19.0291 13.0089 19.2856 13.2162 19.4671 13.4831C19.6486 13.75 19.7471 14.0647 19.75 14.3875V18.1375C19.7483 18.3571 19.7021 18.5741 19.6143 18.7753C19.5265 18.9766 19.3989 19.158 19.2391 19.3087C19.0794 19.4594 18.8908 19.5761 18.6847 19.652C18.4786 19.7278 18.2593 19.7612 18.04 19.75C3.69253 18.8575 0.797532 6.70753 0.250032 2.05753C0.224616 1.82918 0.247838 1.59804 0.318168 1.37931C0.388498 1.16058 0.504343 0.959225 0.658082 0.788483C0.811821 0.61774 0.99997 0.481484 1.21015 0.388679C1.42033 0.295873 1.64778 0.248621 1.87753 0.250031H5.50003C5.82329 0.250987 6.13887 0.348631 6.40618 0.530403C6.67349 0.712174 6.88031 0.96976 7.00003 1.27003L7.81753 3.31753C7.93772 3.61233 7.96838 3.93601 7.90569 4.24814C7.843 4.56027 7.68973 4.847 7.46503 5.07253L5.78503 6.75253C5.78503 6.75253 6.75253 13.3 13.2475 14.11Z" fill="#05A4FD"/>
-                                </svg>
-                            </span>
-                            <p>123-456-7890</p>
-                     </div>
-                     <div class="txt-icon">
-                        <span>
-                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17 0H3C2.20435 0 1.44129 0.316071 0.87868 0.87868C0.316071 1.44129 0 2.20435 0 3V13C0 13.7956 0.316071 14.5587 0.87868 15.1213C1.44129 15.6839 2.20435 16 3 16H17C17.7956 16 18.5587 15.6839 19.1213 15.1213C19.6839 14.5587 20 13.7956 20 13V3C20 2.20435 19.6839 1.44129 19.1213 0.87868C18.5587 0.316071 17.7956 0 17 0ZM17 2L10.5 6.47C10.348 6.55777 10.1755 6.60397 10 6.60397C9.82446 6.60397 9.65202 6.55777 9.5 6.47L3 2H17Z" fill="#05A4FD"/>
-                                </svg>
-                            </span>
-                            <p>info@compnayemail.com</p>
-                     </div>
-                     <div class="txt-icon">
-                        <span>
-                            <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8.99999 0.5C6.81275 0.50258 4.71583 1.3726 3.16921 2.91922C1.6226 4.46584 0.752574 6.56276 0.749994 8.75C0.747374 10.5374 1.33123 12.2763 2.41199 13.7C2.41199 13.7 2.63699 13.9963 2.67374 14.039L8.99999 21.5L15.3292 14.0353C15.3622 13.9955 15.588 13.7 15.588 13.7L15.5887 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1872 0.50258 8.99999 0.5ZM8.99999 11.75C8.40665 11.75 7.82663 11.5741 7.33328 11.2444C6.83994 10.9148 6.45542 10.4462 6.22835 9.89805C6.00129 9.34987 5.94188 8.74667 6.05764 8.16473C6.17339 7.58279 6.45912 7.04824 6.87867 6.62868C7.29823 6.20912 7.83278 5.9234 8.41472 5.80764C8.99667 5.69189 9.59986 5.7513 10.148 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.824 7.57664 12 8.15666 12 8.75C11.999 9.54535 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79534 11.749 8.99999 11.75Z" fill="#05A4FD"/>
-                                </svg>
-                            </span>
-                            <p>111 Avenue Francis Road, Laval, USA</p>
-                     </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- FOOTER SECTION END -->
-    
 
 </body>
+
 </html>
