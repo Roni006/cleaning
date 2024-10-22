@@ -1,3 +1,17 @@
+@media (max-width: 1250px){
+    .hero-title h1{
+        font-size: 55px;
+    }
+    .hero-content{
+        padding: 0 15px;
+    }
+}
+@media (max-width: 1050px){
+    .hero-title h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
 @media (max-width: 900px){
     .menus{ 
         display: none;
@@ -5,6 +19,23 @@
     .bars i{
         display: block;
         visibility: visible;
+    }
+    .hero-title h1{
+        font-size: 35px ;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .hero-subtitle p{
+        margin-bottom: 20px;
+    }
+    .hero-btns .bg{
+        padding: 18px 25px 18px 25px;
+    }
+    .hero-btns .trans{
+        padding: 18px 25px 18px 25px; 
+    }
+    .hero-info p{
+        width: 650px; 
     }
 }
 
@@ -17,12 +48,50 @@
         text-align: center; 
         margin-bottom: 8px;
     }
+    .hero-title h1{
+        font-size: 30px;
+    }
+    .hero-info p{
+        width: 550px;
+    }
 }
 
+
+@media (max-width: 630px){
+    .hero-title h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .hero-subtitle p{
+        font-size: 18px;
+    }
+    .hero-info p{
+        width: 100%; 
+    }
+    .hero-btns .bg{
+        padding: 10px 20px 10px 20px; 
+    }
+    .hero-btns .trans{
+        padding: 10px 20px 10px 20px; 
+    }
+}
 
 @media (max-width: 530px){
     .header-right a{
         display: none;
+    }
+    .hero-btns{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-title h1{
+        font-size: 25px;
+    }
+    .hero-info p{
+        margin-bottom: 30px;
+    }
+    .hero-subtitle p{
+        font-size: 20px;
     }
 }
 
@@ -44,5 +113,8 @@
     }
     .header-top{
         border-radius: 0 0 12px 12px;
+    }
+    .hero-title h1{
+        font-size: 25px; 
     }
 }

@@ -163,9 +163,57 @@ ul {
     gap: 15px;
 }
 /* MAIN HEADE AREA  */
+/*HEADER SECTION END */
 
-
-/* SECTION END */
+/*HERO SECTION START */
+.hero-section{
+    padding: 30px 0 90px 0;
+}
+.hero-content{
+    text-align: center;
+}
+.hero-subtitle p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--upper-bg);
+    margin-bottom: 30px;
+}
+.hero-title h1 {
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 45px;
+}
+.hero-info p{
+    font-size: 16px;
+    width: 780px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+.hero-btns{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-btns .bg{
+    background-color: var(--upper-bg);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px 30px 25px 30px;
+    border-radius: 15px
+}
+.hero-btns .trans{
+    background-color:transparent;
+    border: 2px solid var(--upper-bg);
+    color: var(--upper-bg);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px 30px 25px 30px;
+    border-radius: 15px
+}
+/*HERO SECTION END */
 
 /* SECTION START */
 /* SECTION END */
