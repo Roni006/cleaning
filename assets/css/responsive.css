@@ -11,6 +11,16 @@
         font-size: 45px;
         line-height: 55px;
     }
+    .service-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px 0 15px;
+    }
+    .service-top{
+        padding: 0 15px;
+    }
 }
 @media (max-width: 900px){
     .menus{ 
@@ -36,6 +46,10 @@
     }
     .hero-info p{
         width: 650px; 
+    }
+    .service-row{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -74,6 +88,10 @@
     .hero-btns .trans{
         padding: 10px 20px 10px 20px; 
     }
+    .s-info{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
 
 @media (max-width: 530px){
@@ -102,7 +120,6 @@
         font-size: 16px;
     }
     .header-row{
-        /* flex-direction: column; */
         padding:0  5px; 
         margin-top: 12px;
         
@@ -117,4 +134,14 @@
     .hero-title h1{
         font-size: 25px; 
     }
+    .s-text p{
+        width: 100%;
+    }
+    .s-title h4{
+        font-size: 30px;
+    }
 }
+
+/* @media (max-width: 375px){
+   
+} */
