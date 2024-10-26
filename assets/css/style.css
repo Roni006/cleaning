@@ -298,6 +298,59 @@ ul {
 }
 /*SERVICE SECTION END */
    
+/*GET SERVICE SECTION START */
+.get-service{
+    padding: 90px 0;
+    /* background-color: var(--our-bg); */
+}
+.get-service-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gs-subtitle p{
+    color: var(--upper-bg);
+    margin-bottom: 20px;
+}
+.gs-title h4{
+    font-weight: 700;
+}
+.box-content{
+    margin-top: 60px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.box-content .box-icon{
+    padding: 40px 40px; 
+    background-color: var(--our-bg);
+    border-radius: 8px;
+
+}
+.box-title h6{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.border{
+    border: 5px solid var(--bottom-border);
+    margin-top: 30px;
+}  
+.sub-section{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info p{
+    width: 390px;
+}
+.bold{
+    font-weight: 700;
+}
+/*GET SERVICE SECTION END */
+   
 /* SECTION START */
 /* SECTION END */
    

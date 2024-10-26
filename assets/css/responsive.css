@@ -5,6 +5,9 @@
     .hero-content{
         padding: 0 15px;
     }
+    .get-service{
+        padding: 0 15px;
+    }
 }
 @media (max-width: 1050px){
     .hero-title h1{
@@ -20,6 +23,12 @@
     }
     .service-top{
         padding: 0 15px;
+    }
+    .get-service-row{
+        flex-wrap: wrap;
+    }
+    .service-right{
+        margin-top: 50px;
     }
 }
 @media (max-width: 900px){
@@ -111,6 +120,19 @@
     .hero-subtitle p{
         font-size: 20px;
     }
+    .service-right .main-image img{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .gs-title h4{
+        font-size: 30px;
+    }
+    .sub-section{
+        flex-direction: column;
+    }
+    .sub-section .image img{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 475px){
@@ -139,6 +161,15 @@
     }
     .s-title h4{
         font-size: 30px;
+    }
+    .box1{
+        flex-direction: column; 
+    }
+    .info p{
+        width: 100%;
+    }
+    .box-content .box-icon{
+        padding: 20px 20px;
     }
 }
 
