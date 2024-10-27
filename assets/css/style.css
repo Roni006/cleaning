@@ -300,8 +300,7 @@ ul {
    
 /*GET SERVICE SECTION START */
 .get-service{
-    padding: 90px 0;
-    /* background-color: var(--our-bg); */
+    padding: 90px 0;  
 }
 .get-service-row{
     display: flex;
@@ -350,6 +349,35 @@ ul {
     font-weight: 700;
 }
 /*GET SERVICE SECTION END */
+   
+/*ABOUT US SECTION START */
+.about-us{  
+    background-color: var(--upper-bg); 
+}
+.about-top{ 
+    color: var(--white);
+    position: relative;
+}
+.about-title h1{
+    font-weight: 700; 
+    text-align: center; 
+    padding: 100px 0;
+}
+.heading p{
+    background-color: var(--about-btn);
+    text-align: center;
+    display: inline-block;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top:20px;
+    padding: 25px 70px;
+    border-radius: 8px;
+    position: absolute;
+    top: 290px;
+    left: 352px; 
+}
+/*ABOUT US SECTION END */
    
 /* SECTION START */
 /* SECTION END */

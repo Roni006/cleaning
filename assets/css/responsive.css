@@ -1,175 +1,284 @@
-@media (max-width: 1250px){
-    .hero-title h1{
+@media (max-width: 1250px) {
+    .hero-title h1 {
         font-size: 55px;
     }
-    .hero-content{
+
+    .hero-content {
         padding: 0 15px;
     }
-    .get-service{
+
+    .get-service {
         padding: 0 15px;
+    }
+    .about-us{
+        margin-top: 60px;
     }
 }
-@media (max-width: 1050px){
-    .hero-title h1{
+
+@media (max-width: 1130px) {
+    .about-title h1 {
+        font-size: 50px;
+    }
+
+    .about-us {
+        padding: 0 30px;
+    }
+
+    .heading p {
+        top: 258px;
+        left: 352px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .hero-title h1 {
         font-size: 45px;
         line-height: 55px;
     }
-    .service-row{
+
+    .service-row {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 0 15px 0 15px;
     }
-    .service-top{
+
+    .service-top {
         padding: 0 15px;
     }
-    .get-service-row{
+
+    .get-service-row {
         flex-wrap: wrap;
     }
-    .service-right{
+
+    .service-right {
         margin-top: 50px;
     }
+
+    .heading p {
+        top: 258px;
+        left: 340px;
+    }
 }
-@media (max-width: 900px){
-    .menus{ 
+
+@media (max-width: 900px) {
+    .menus {
         display: none;
     }
-    .bars i{
+
+    .bars i {
         display: block;
         visibility: visible;
     }
-    .hero-title h1{
-        font-size: 35px ;
+
+    .hero-title h1 {
+        font-size: 35px;
         line-height: 40px;
         margin-bottom: 20px;
     }
-    .hero-subtitle p{
+
+    .hero-subtitle p {
         margin-bottom: 20px;
     }
-    .hero-btns .bg{
+
+    .hero-btns .bg {
         padding: 18px 25px 18px 25px;
     }
-    .hero-btns .trans{
-        padding: 18px 25px 18px 25px; 
+
+    .hero-btns .trans {
+        padding: 18px 25px 18px 25px;
     }
-    .hero-info p{
-        width: 650px; 
+
+    .hero-info p {
+        width: 650px;
     }
-    .service-row{
+
+    .service-row {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .heading p {
+        top: 258px;
+        left: 241px;
+    }
 }
 
 
-@media (max-width: 730px){
-    .top-row{
+@media (max-width: 730px) {
+    .top-row {
         flex-direction: column;
     }
-    .top-left p{
-        text-align: center; 
+
+    .top-left p {
+        text-align: center;
         margin-bottom: 8px;
     }
-    .hero-title h1{
+
+    .hero-title h1 {
         font-size: 30px;
     }
-    .hero-info p{
+
+    .hero-info p {
         width: 550px;
+    }
+
+    .heading p {
+        top: 230px;
+        left: 192px;
+        padding: 15px 40px;
+    }
+
+    .about-title h1 {
+        font-size: 35px;
     }
 }
 
 
-@media (max-width: 630px){
-    .hero-title h1{
+@media (max-width: 630px) {
+    .hero-title h1 {
         font-size: 24px;
         line-height: 30px;
     }
-    .hero-subtitle p{
+
+    .hero-subtitle p {
         font-size: 18px;
     }
-    .hero-info p{
-        width: 100%; 
+
+    .hero-info p {
+        width: 100%;
     }
-    .hero-btns .bg{
-        padding: 10px 20px 10px 20px; 
+
+    .hero-btns .bg {
+        padding: 10px 20px 10px 20px;
     }
-    .hero-btns .trans{
-        padding: 10px 20px 10px 20px; 
+
+    .hero-btns .trans {
+        padding: 10px 20px 10px 20px;
     }
-    .s-info{
+
+    .s-info {
         flex-wrap: wrap;
         gap: 30px;
     }
-}
 
-@media (max-width: 530px){
-    .header-right a{
+    .heading p {
+        top: 145px;
+        left: 130px;
         display: none;
     }
-    .hero-btns{
+
+    .about-title h1 {
+        padding: 60px 0;
+    }
+ 
+}
+
+@media (max-width: 530px) {
+    .header-right a {
+        display: none;
+    }
+
+    .hero-btns {
         flex-direction: column;
         gap: 20px;
     }
-    .hero-title h1{
+
+    .hero-title h1 {
         font-size: 25px;
     }
-    .hero-info p{
+
+    .hero-info p {
         margin-bottom: 30px;
     }
-    .hero-subtitle p{
+
+    .hero-subtitle p {
         font-size: 20px;
     }
-    .service-right .main-image img{
+
+    .service-right .main-image img {
         width: 100%;
         padding-left: 15px;
     }
-    .gs-title h4{
+
+    .gs-title h4 {
         font-size: 30px;
     }
-    .sub-section{
+
+    .sub-section {
         flex-direction: column;
     }
-    .sub-section .image img{
+
+    .sub-section .image img {
         margin-bottom: 20px;
+    }
+
+    .heading p {
+        top: 125px;
+        left: 83px;
+    }
+
+    .about-title h1 {
+        font-size: 25px;
     }
 }
 
-@media (max-width: 475px){
-    .header-btn a{
+@media (max-width: 475px) {
+    .header-btn a {
         padding: 12px 10px;
         margin-top: 20px;
         font-size: 16px;
     }
-    .header-row{
-        padding:0  5px; 
+
+    .header-row {
+        padding: 0 5px;
         margin-top: 12px;
-        
+
     }
-    .logo img{
+
+    .logo img {
         margin-top: 15px;
         width: 150px;
     }
-    .header-top{
+
+    .header-top {
         border-radius: 0 0 12px 12px;
     }
-    .hero-title h1{
-        font-size: 25px; 
+
+    .hero-title h1 {
+        font-size: 25px;
     }
-    .s-text p{
+
+    .s-text p {
         width: 100%;
     }
-    .s-title h4{
+
+    .s-title h4 {
         font-size: 30px;
     }
-    .box1{
-        flex-direction: column; 
+
+    .box1 {
+        flex-direction: column;
     }
-    .info p{
+
+    .info p {
         width: 100%;
     }
-    .box-content .box-icon{
+
+    .box-content .box-icon {
         padding: 20px 20px;
+    }
+    .heading p {
+        top: 125px;
+        left: 50px;
+        padding: 15px 20px;
+    }
+}
+@media (max-width: 375px){
+    .heading p {
+        top: 160px;
+        left: 10px;
     }
 }
 
