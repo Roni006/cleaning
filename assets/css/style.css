@@ -377,6 +377,37 @@ ul {
     top: 290px;
     left: 352px; 
 }
+
+/* ABOUT2 */
+.about2{
+    padding: 90px 0 0 0 ;
+    overflow: hidden;
+}
+.about-details p{
+    text-align: center;
+    margin: 0 auto;
+    width: 790px;
+}
+.about-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.about-box1{
+    background-color: var(--upper-bg);
+    width: 280px;
+    border-radius: 25px;
+    padding: 25px 70px 30px 70px;
+    text-align: center;
+    color:var(--white);  
+}
+.about-box-title h2{
+    font-weight: 500; 
+}
+/* ABOUT2 */
+
 /*ABOUT US SECTION END */
    
 /* SECTION START */
