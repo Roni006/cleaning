@@ -10,7 +10,8 @@
     .get-service {
         padding: 0 15px;
     }
-    .about-us{
+
+    .about-us {
         margin-top: 60px;
     }
 }
@@ -28,13 +29,19 @@
         top: 258px;
         left: 352px;
     }
-    .about-row{
-        display: flex; 
+
+    .about-row {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .about-details p{
+
+    .about-details p {
         width: 600px;
+    }
+
+    .offer-section {
+        padding: 110px 30px 110px 30px;
     }
 }
 
@@ -111,14 +118,37 @@
         top: 258px;
         left: 241px;
     }
-    .about-details p{
+
+    .about-details p {
         width: 500px;
     }
-    .about-row{
+
+    .about-row {
         padding: 0 15px;
+    }
+
+    .offer-section .container {
+        padding: 60px 180px;
+    }
+
+    .offer-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .offer-title h5 {
+        font-size: 30px;
     }
 }
 
+
+@media (max-width: 768px) {
+    .heading p {
+        top: 325px;
+        left: 180px;
+        padding: 18px 50px;
+    }
+}
 
 @media (max-width: 730px) {
     .top-row {
@@ -146,6 +176,10 @@
 
     .about-title h1 {
         font-size: 35px;
+    }
+
+    .offer-box p {
+        padding: 20px 25px;
     }
 }
 
@@ -186,11 +220,16 @@
     .about-title h1 {
         padding: 60px 0;
     }
-    .about-details p{
+
+    .about-details p {
         width: 100%;
         padding: 0 20px;
     }
- 
+
+    .offer-section .container {
+        padding: 60px 50px;
+    }
+
 }
 
 @media (max-width: 530px) {
@@ -240,11 +279,13 @@
     .about-title h1 {
         font-size: 25px;
     }
-    .about-box1{  
-        padding: 20px 30px 20px 30px;  
+
+    .about-box1 {
+        padding: 20px 30px 20px 30px;
         width: 200px;
     }
-    .about-box-title h2{
+
+    .about-box-title h2 {
         font-size: 30px;
     }
 }
@@ -294,13 +335,36 @@
     .box-content .box-icon {
         padding: 20px 20px;
     }
+
     .heading p {
         top: 125px;
         left: 50px;
         padding: 15px 20px;
     }
+
+    .offer-box p {
+        padding: 15px 20px;
+    }
+
+    .offer-section {
+        padding: 110px 30px;
+    }
+
+    .offer-title h5 {
+        font-size: 25px;
+    }
+
+    .offer-section .container {
+        padding: 35px 35px;
+
+    }
+
+    .offer-info p {
+        text-align: justify;
+    }
 }
-@media (max-width: 375px){
+
+@media (max-width: 375px) {
     .heading p {
         top: 160px;
         left: 10px;

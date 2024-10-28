@@ -401,7 +401,7 @@ ul {
     border-radius: 25px;
     padding: 25px 70px 30px 70px;
     text-align: center;
-    color:var(--white);  
+    color:var(--white);   
 }
 .about-box-title h2{
     font-weight: 500; 
@@ -409,6 +409,37 @@ ul {
 /* ABOUT2 */
 
 /*ABOUT US SECTION END */
+   
+
+/*OFFER SECTION START */
+.offer-section{
+    padding: 110px 0;
+}
+.offer-section .container{
+    background-color: var(--upper-bg);
+    padding: 60px 250px;
+    text-align: center;
+    color: var(--white);
+    border-radius: 30px;
+}
+.offer-title h5{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.offer-info p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.offer-box p{
+    background-color: var(--about-btn);
+    color: var(--black);
+    font-size: 16px;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+/*OFFER SECTION END */
    
 /* SECTION START */
 /* SECTION END */
