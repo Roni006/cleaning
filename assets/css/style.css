@@ -394,6 +394,7 @@ ul {
     justify-content: center;
     gap: 30px;
     margin-top: 50px;
+    padding-bottom: 90px;
 }
 .about-box1{
     background-color: var(--upper-bg);
@@ -410,6 +411,69 @@ ul {
 
 /*ABOUT US SECTION END */
    
+
+/*CLIENT SECTION START */
+.client-section{
+    padding: 90px 0;
+}
+.client-subtitle span{
+    font-size: 16px;
+    color: var(--upper-bg);
+}
+.client-title h4{
+    font-weight: 700;
+    margin: 5px 0 15px 0;
+}
+.client-info p{
+    font-size: 16px ;
+    width: 420px;
+}
+.client-row{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.client-box1{
+    width: 440px;
+    border: 1px solid var(--box-border);
+    border-radius: 12px;
+    padding: 32px 35px;
+    position: relative;
+}
+.client-icon{
+    background-color: var(--upper-bg);
+    display: inline-block;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+}
+.client-details{
+    font-size: 16px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--box-border);
+}
+.client-subsection{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;  
+    gap: 50px;
+} 
+.client-names span{
+    font-size: 18px;
+    font-weight: 600;
+} 
+/*CLIENT SECTION END */
+
 
 /*OFFER SECTION START */
 .offer-section{
@@ -437,6 +501,7 @@ ul {
     display: inline-block;
     padding: 20px 40px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 /*OFFER SECTION END */
