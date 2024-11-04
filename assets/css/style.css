@@ -32,7 +32,7 @@ body{
     font-family: var(--body-font);
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;  
 }
 
 h1{
@@ -219,7 +219,7 @@ ul {
 
 /*SERVICE SECTION START */
 .service-section{
-    padding: 90px 0 ;
+    padding: 50px 0 ;
 }
 .s-subtitle span{
     color: var(--upper-bg);
@@ -240,9 +240,6 @@ ul {
     display: grid;
     grid-template-columns: repeat(3, 350px);
     gap: 25px;
-    /* align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; */
 }
 .s-info{
     display: flex;
@@ -264,7 +261,6 @@ ul {
 }
 .service-block{
     width: 360px;
-    /* width: calc(100% - 750px); */
     border-radius: 5px;
     border: 1px solid var(--box-border);
     padding: 32px 32px;
@@ -414,7 +410,7 @@ ul {
 
 /*CLIENT SECTION START */
 .client-section{
-    padding: 90px 0;
+    padding: 50px 0;
 }
 .client-subtitle span{
     font-size: 16px;
@@ -477,7 +473,7 @@ ul {
 
 /*OFFER SECTION START */
 .offer-section{
-    padding: 110px 0;
+    padding: 50px 0;
 }
 .offer-section .container{
     background-color: var(--upper-bg);
@@ -508,7 +504,7 @@ ul {
    
 /*FORM SECTION START */
 .form-section{
-    padding: 150px 0;
+    padding: 60px 0;
 }
 .form-row{
     display: flex;
@@ -592,7 +588,7 @@ label{
    
 /*FOOTER SECTION START */
 .footer-section{
-    
+    padding-top: 50px;
 }
 .footer-row{
     display: flex;
@@ -664,6 +660,17 @@ label{
     color: var(--f-menus-color);
     cursor: pointer;
 }
+.footer-section2{
+    background-color: var(--upper-bg);
+    margin-top: 50px;
+}
+.footer-copy-right p{
+    color: var(--white);
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0 ;
+}
+
 /*FOOTER SECTION END */
    
 
